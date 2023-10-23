@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Comércio</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        .navbar-toggler:focus {
+            outline: none;
+        }
+
+        .list-group {
+            position: sticky;
+            top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Meu Comércio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Página Inicial <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sobre.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="bg-light">
+        <div class="container p-4 py-5 container-centralizado">
+            <div class="row">
+                <div class="col-md-12 mb-4 text-center">
+                    <h1>Meu Comércio</h1>
+                    <p>Bem-vindo ao nosso comércio! Oferecemos uma ampla variedade de produtos para atender
+                        às suas necessidades.</p>
+                </div>
+            </div>
+            <div data-bs-spy="scroll" data-bs-offset="15" data-bs-target="myScrollSpy">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3" id="myScrollSpy">
+                            <div class="list-group">
+                                <a class="list-group-item list-group-item-section active" href="#section1">Camisas</a>
+                                <a class="list-group-item list-group-item-section" href="#section2">Calças</a>
+                                <a class="list-group-item list-group-item-section" href="#section3">Sapatos</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <div id="section1">
+                                <h2>Camisas</h2>
+                                <div class="row gx-4">
+                                    <div class="col-md-3 m-5">
+                                        <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                                            <img src="./assets/camisa1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Camisa Social Branca</h5><br>
+                                                <p class="card-text">De: R$ 149,99 <br>
+                                                    <em><b>Por: R$ 135,99</b></em>
+                                                </p>
+                                                <a href="./camisa1.html" class="btn btn-dark">Ver produto</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 m-5">
+                                        <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                                            <img src="./assets/camisa2.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Camisa Lisa Verde</h5><br>
+                                                <p class="card-text">De: R$ 79,99 <br>
+                                                    <em><b>Por: R$ 59,99</b></em>
+                                                </p>
+                                                <a href="./camisa2.html" class="btn btn-dark">Ver produto</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 m-5">
+                                        <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                                            <img src="./assets/camisa3.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Camisa Lisa Vinho</h5><br>
+                                                <p class="card-text">De: R$ 79,99 <br>
+                                                    <em><b>Por: R$ 59,99</b></em>
+                                                </p>
+                                                <a href="./camisa3.html" class="btn btn-dark">Ver produto</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 m-5">
+                                        <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                                            <img src="./assets/camisa4.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Camisa Social Preta</h5><br>
+                                                <p class="card-text">De: R$ 149,99 <br>
+                                                    <em><b>Por: R$ 135,99</b></em>
+                                                </p>
+                                                <a href="./camisa4.html" class="btn btn-dark">Ver produto</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+
+                            <div id="section2">
+                                <h2>Calças</h2>
+                                <div class="row gx-4">
+                                    <div class="col-md-3 m-5">
+                                        <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                                            <img src="./assets/calca1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Calça Jeans Preta</h5><br>
+                                                <p class="card-text">De: R$ 120,99 <br>
+                                                    <em><b>Por: R$ 100,99</b></em>
+                                                </p>
+                                                <a href="./calca1.html" class="btn btn-dark">Ver produto</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 m-5">
+                                        <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                                            <img src="./assets/calca2.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Calça Jeans Branca</h5><br>
+                                                <p class="card-text">De: R$ 120,99 <br>
+                                                    <em><b>Por: R$ 100,99</b></em>
+                                                </p>
+                                                <a href="./calca2.html" class="btn btn-dark">Ver produto</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 m-5">
+                                        <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                                            <img src="./assets/calca3.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Calça Social Preta</h5><br>
+                                                <p class="card-text">De: R$ 150,99 <br>
+                                                    <em><b>Por: R$ 120,99</b></em>
+                                                </p>
+                                                <a href="./calca3.html" class="btn btn-dark">Ver produto</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 m-5">
+                                        <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                                            <img src="./assets/calca4.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Calça Basica Branca</h5><br>
+                                                <p class="card-text">De: R$ 100,99 <br>
+                                                    <em><b>Por: R$ 80,99</b></em>
+                                                </p>
+                                                <a href="./calca4.html" class="btn btn-dark">Ver produto</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+
+                            <div id="section3">
+                                <h2>Sapatos</h2>
+                                <div class="row gx-4">
+                                    <div class="col-md-3 m-5">
+                                        <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                                            <img src="./assets/sapato1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Sapatenis Branco</h5><br>
+                                                <p class="card-text">De: R$ 130,99 <br>
+                                                    <em><b>Por: R$ 100,99</b></em>
+                                                </p>
+                                                <a href="./sapato1.html" class="btn btn-dark">Ver produto</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 m-5">
+                                        <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                                            <img src="./assets/sapato2.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Tenis Branco</h5><br>
+                                                <p class="card-text">De: R$ 150,99 <br>
+                                                    <em><b>Por: R$ 130,99</b></em>
+                                                </p>
+                                                <a href="./sapato2.html" class="btn btn-dark">Ver produto</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 m-5">
+                                        <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                                            <img src="./assets/sapato3.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Sapatenis Couro Escuro</h5><br>
+                                                <p class="card-text">De: R$ 120,99 <br>
+                                                    <em><b>Por: R$ 100,99</b></em>
+                                                </p>
+                                                <a href="./sapato3.html" class="btn btn-dark">Ver produto</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 m-5">
+                                        <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                                            <img src="./assets/sapato4.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Tenis Têxtil Azul</h5><br>
+                                                <p class="card-text">De: R$ 150,99 <br>
+                                                    <em><b>Por: R$ 130,99</b></em>
+                                                </p>
+                                                <a href="./sapato4.html" class="btn btn-dark">Ver produto</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </main>
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Desenvolvido por:<br>
+                    Eduardo Gama <br>
+                    Roberval Junior <br>
+                    Lucas Gabriel <br>
+                    Fernando Kauã <br>
+                    Pabllo Firmino</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>&copy; 2023 Meu Comércio. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
